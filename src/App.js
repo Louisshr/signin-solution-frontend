@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-   <BrowserRouter>
+    <BrowserRouter>
     <Routes>
       <Route index element={<Signin/>}></Route>
     </Routes>

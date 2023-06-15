@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+.signin--box{
+    width: 470px;
+    height: 247px;
+    border-radius: 10px;
+    background-color: #9F97D3;
+    position: relative;
+}
+
+html, body, #root {
+     height: 100%; 
+}
+
+.signin--container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(28, 16, 75, 0.88);
+}
+
+#signin--header{
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #1C104B;
+    font-size: 28px;
+    margin-top: 21px;
+    margin-left: 26px;
+}
+
+.content--container{
+    margin-top: 19px;
+    margin-left: 26px; 
+    display: flex;    
+}
+
+.input--container{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.input-style{
+    width: 215px;
+    height: 30px;
+    border-radius: 5px;
+    border: none; font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    text-indent: 14px;
+    color: #1C104B;
+}
+
+.signin-img{
+   position: absolute;
+   top: 49px;
+   right: 52px;
+}
+
+.signin-button{
+    width: 78px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(28, 16, 75, 0.88);
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
