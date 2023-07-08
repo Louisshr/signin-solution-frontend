@@ -70,3 +70,10 @@ html, body, #root {
     font-size: 16px;
     cursor: pointer;
 }
+
+.tablePagination-style{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
